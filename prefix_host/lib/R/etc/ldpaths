@@ -1,0 +1,21 @@
+: ${JAVA_HOME=}
+: ${R_JAVA_LD_LIBRARY_PATH=}
+if test -n "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib:/usr/lib"; then
+: ${R_LD_LIBRARY_PATH=${R_HOME}/lib:/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib:/usr/lib}
+else
+: ${R_LD_LIBRARY_PATH=${R_HOME}/lib}
+fi
+if test -n "${R_JAVA_LD_LIBRARY_PATH}"; then
+  R_LD_LIBRARY_PATH="${R_LD_LIBRARY_PATH}:${R_JAVA_LD_LIBRARY_PATH}"
+fi
+## This is DYLD_FALLBACK_LIBRARY_PATH on Darwin (macOS) and
+## LD_LIBRARY_PATH elsewhere.
+## However, on macOS >=10.11 (if SIP is enabled, the default), the
+## environment value will not be passed to a script such as R.sh, so
+## would not seen here.
+# if test -z "${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib}"; then
+#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib="${R_LD_LIBRARY_PATH}"
+# else
+#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib="${R_LD_LIBRARY_PATH}:${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib}"
+# fi
+# export /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724325055/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib
