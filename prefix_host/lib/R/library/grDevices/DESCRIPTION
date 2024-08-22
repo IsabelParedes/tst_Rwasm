@@ -9,4 +9,4 @@ Description: Graphics devices and support for base and grid graphics.
 License: Part of R 4.4.1
 Suggests: KernSmooth
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-21 16:27:48 UTC; unix
+Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 14:06:09 UTC; unix
