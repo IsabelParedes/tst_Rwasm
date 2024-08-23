@@ -9,4 +9,4 @@ Description: R utility functions.
 License: Part of R 4.4.1
 Suggests: methods, xml2, commonmark, knitr, jsonlite
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 14:06:08 UTC; unix
+Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 15:50:52 UTC; unix

@@ -24,7 +24,7 @@ R_GZIPCMD=${R_GZIPCMD-'/usr/bin/gzip'}
 ## Default zip/unzip commands
 R_UNZIPCMD=${R_UNZIPCMD-'/usr/bin/unzip'}
 R_ZIPCMD=${R_ZIPCMD-'/usr/bin/zip'}
-R_BZIPCMD=${R_BZIPCMD-'/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/bin/bzip2'}
+R_BZIPCMD=${R_BZIPCMD-'/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/bzip2'}
 ## Default browser
 R_BROWSER=${R_BROWSER-'/usr/bin/xdg-open'}
 ## Default editor
@@ -37,7 +37,7 @@ R_PDFVIEWER=${R_PDFVIEWER-'/usr/bin/xdg-open'}
 LN_S='ln -s'
 MAKE=${MAKE-'make'}
 ## Prefer a POSIX-compliant sed on e.g. Solaris
-SED=${SED-'/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/bin/sed'}
+SED=${SED-'/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/sed'}
 ## Prefer a tar that can automagically read compressed archives
 TAR=${TAR-'/usr/bin/tar'}
 

@@ -11,4 +11,4 @@ Description: Regression spline functions and classes.
 License: Part of R 4.4.1
 Suggests: Matrix, methods
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 14:06:23 UTC; unix
+Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 15:51:07 UTC; unix

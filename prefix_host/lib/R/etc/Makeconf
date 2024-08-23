@@ -4,7 +4,7 @@
 #
 # R was configured using the following call
 # (not including env. vars and site configuration)
-# configure  '--prefix=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724335634/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh' '--build=x86_64-conda-linux-gnu' '--host=wasm32-unknown-emscripten' '--enable-R-static-lib' '--enable-BLAS-shlib=no' '--with-cairo' '--without-readline' '--without-x' '--enable-static=[methods]' '--enable-java=no' '--enable-R-profiling=no' '--enable-byte-compiled-packages=no' '--disable-rpath' '--with-internal-tzcode' '--with-recommended-packages=no' '--with-libdeflate-compression=no' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=wasm32-unknown-emscripten' 'MAIN_CFLAGS=-sMAIN_MODULE --pre-js /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/recipes/recipes_emscripten/r-base/pre.js' 'SHLIB_CFLAGS=-sSIDE_MODULE' 'SHLIB_LDFLAGS=-sSIDE_MODULE' 'DYLIB_LDFLAGS=-sSIDE_MODULE' 'PKG_CONFIG=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/bin/pkg-config' 'PKG_CONFIG_PATH=' 'PKG_CONFIG_LIBDIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig' 'CC=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/opt/emsdk/upstream/emscripten/emcc' 'CFLAGS= -matomics -mbulk-memory' 'LDFLAGS=-L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724335634/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib     -s WASM_BIGINT     -s STACK_SIZE=5MB     -s ALLOW_MEMORY_GROWTH=1     -s EXPORTED_RUNTIME_METHODS=callMain,FS,ENV,getEnvStrings,TTY     -s FORCE_FILESYSTEM=1     -s INVOKE_RUN=0' 'LIBS=-lFortranRuntime' 'CPPFLAGS=-I/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724335634/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/include' 'FC=flang-new' 'FCFLAGS= --target=wasm32-unknown-emscripten' 'CXX=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/opt/emsdk/upstream/emscripten/em++'
+# configure  '--prefix=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh' '--build=x86_64-conda-linux-gnu' '--host=wasm32-unknown-emscripten' '--enable-R-static-lib' '--enable-BLAS-shlib=no' '--with-cairo' '--without-readline' '--without-x' '--enable-static=[Rlapack,stats]' '--enable-java=no' '--enable-R-profiling=no' '--enable-byte-compiled-packages=no' '--disable-rpath' '--with-internal-tzcode' '--with-recommended-packages=no' '--with-libdeflate-compression=no' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=wasm32-unknown-emscripten' 'MAIN_CFLAGS=-sMAIN_MODULE --pre-js /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/recipes/recipes_emscripten/r-base/pre.js' 'SHLIB_CFLAGS=-sSIDE_MODULE' 'SHLIB_LDFLAGS=-sSIDE_MODULE' 'DYLIB_LDFLAGS=-sSIDE_MODULE' 'PKG_CONFIG=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/pkg-config' 'PKG_CONFIG_PATH=' 'PKG_CONFIG_LIBDIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig' 'CC=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc' 'CFLAGS= -matomics -mbulk-memory' 'LDFLAGS=-L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib     -s WASM_BIGINT     -s STACK_SIZE=5MB     -s ALLOW_MEMORY_GROWTH=1     -s EXPORTED_RUNTIME_METHODS=callMain,FS,ENV,getEnvStrings,TTY     -s FORCE_FILESYSTEM=1     -s INVOKE_RUN=0' 'LIBS=-lFortranRuntime' 'CPPFLAGS=-I/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/include' 'FC=flang-new' 'FCFLAGS= --target=wasm32-unknown-emscripten' 'CXX=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/em++'
 
 ## This fails if it contains spaces, or if it is quoted
 include $(R_SHARE_DIR)/make/vars.mk
@@ -87,14 +87,14 @@ JAVA_CPPFLAGS =
 JAVA_LIBS = 
 JAVA_LD_LIBRARY_PATH = 
 LAPACK_LIBS = -L"$(R_HOME)/lib$(R_ARCH)" -lRlapack
-LDFLAGS = -L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724335634/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib     -s WASM_BIGINT     -s STACK_SIZE=5MB     -s ALLOW_MEMORY_GROWTH=1     -s EXPORTED_RUNTIME_METHODS=callMain,FS,ENV,getEnvStrings,TTY     -s FORCE_FILESYSTEM=1     -s INVOKE_RUN=0
+LDFLAGS = -L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib     -s WASM_BIGINT     -s STACK_SIZE=5MB     -s ALLOW_MEMORY_GROWTH=1     -s EXPORTED_RUNTIME_METHODS=callMain,FS,ENV,getEnvStrings,TTY     -s FORCE_FILESYSTEM=1     -s INVOKE_RUN=0
 ## we only need this is if it is external, as otherwise link to R
 LIBINTL=  
 LIBM = -lm
 LIBR0 = 
 LIBR1 = 
 LIBR =  
-LIBS = -L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724335634/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib -lpcre2-8 -llzma -lbz2 -lz -lblas -lrt -ldl -lm -lFortranRuntime -liconv
+LIBS = -L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib -lpcre2-8 -llzma -lbz2 -lz -lblas -lrt -ldl -lm -lFortranRuntime -liconv
 ## needed by R CMD config
 LIBnn = lib
 LIBTOOL = $(SHELL) "$(R_HOME)/bin/libtool"
@@ -110,7 +110,7 @@ MAIN_LD = $(CC)
 MAIN_LDFLAGS = -pthread
 MAIN_LINK = $(MAIN_LD) $(MAIN_LDFLAGS) $(LDFLAGS)
 MKINSTALLDIRS = "$(R_HOME)/bin/mkinstalldirs"
-NM = /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/bin/llvm-nm
+NM = /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/llvm-nm
 OBJC = 
 OBJCFLAGS =  $(LTO)
 OBJC_LIBS = 
@@ -120,7 +120,7 @@ RANLIB = emranlib
 SAFE_FFLAGS =  --target=wasm32-unknown-emscripten
 ## A version of SHLIB_LIBADD not overridden in install.R.
 SAN_LIBS =
-SED = /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/bin/sed
+SED = /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/sed
 SHELL = /bin/sh
 SHLIB_CFLAGS = -sSIDE_MODULE
 SHLIB_CXXFLAGS = 
@@ -210,7 +210,7 @@ ALL_LIBS = $(PKG_LIBS) $(SHLIB_LIBADD) $(SAN_LIBS) $(LIBR)# $(LIBINTL)
 	$(OBJC) $(ALL_CPPFLAGS) $(ALL_OBJCFLAGS) -c $< -o $@
 .m.d:
 	@echo "making $@ from $<"
-	@/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724335268/build_env/opt/emsdk/upstream/emscripten/emcc -E -M $(ALL_CPPFLAGS) $< > $@
+	@/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc -E -M $(ALL_CPPFLAGS) $< > $@
 .mm.o:
 	$(OBJCXX) $(ALL_CPPFLAGS) $(ALL_OBJCXXFLAGS) -c $< -o $@
 .M.o:

@@ -10,4 +10,4 @@ Imports: grDevices
 License: Part of R 4.4.1
 NeedsCompilation: yes
 Enhances: vcd
-Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 14:06:12 UTC; unix
+Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 15:50:55 UTC; unix
