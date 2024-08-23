@@ -8,7 +8,7 @@ class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header('Cross-Origin-Embedder-Policy', 'require-corp')
         super().end_headers()
 
-PORT = 8001
+PORT = 8000
 
 with socketserver.TCPServer(("", PORT), CustomHTTPRequestHandler) as httpd:
     print(f"Serving at port {PORT}")

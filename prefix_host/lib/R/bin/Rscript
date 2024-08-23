@@ -27,7 +27,7 @@ Module['prerun'] = () => {
 // defensive during initialization.
 var moduleOverrides = Object.assign({}, Module);
 
-var arguments_ = [];
+var arguments_ = ["--vanilla", "-e", "print(1+1)"];
 var thisProgram = './this.program';
 var quit_ = (status, toThrow) => {
   throw toThrow;
