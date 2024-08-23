@@ -1,0 +1,12 @@
+prefix=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.43
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz 
+Cflags: -I${includedir}

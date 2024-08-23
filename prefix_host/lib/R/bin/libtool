@@ -76,7 +76,7 @@ build=x86_64-conda-linux-gnu
 build_os=linux-gnu
 
 # A sed program that does not truncate output.
-SED="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/sed"
+SED="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/bin/sed"
 
 # Sed that helps us avoid accidentally triggering echo(1) options like -n.
 Xsed="$SED -e 1s/^X//"
@@ -91,7 +91,7 @@ EGREP="/usr/bin/grep -E"
 FGREP="/usr/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
-NM="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/llvm-nm"
+NM="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/bin/llvm-nm"
 
 # Whether we need soft or hard links.
 LN_S="ln -s"
@@ -142,7 +142,7 @@ DLLTOOL="false"
 sharedlib_from_linklib_cmd="printf %s\\n"
 
 # The archiver.
-AR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emar"
+AR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emar"
 
 # Flags to create an archive.
 AR_FLAGS="cru"
@@ -154,7 +154,7 @@ archiver_list_spec="@"
 STRIP="strip"
 
 # Commands used to install an old-style archive.
-RANLIB="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emranlib"
+RANLIB="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emranlib"
 old_postinstall_cmds="chmod 644 \$oldlib~\$RANLIB \$tool_oldlib"
 old_postuninstall_cmds=""
 
@@ -162,7 +162,7 @@ old_postuninstall_cmds=""
 lock_old_archive_extraction=no
 
 # A C compiler.
-LTCC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc"
+LTCC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emcc"
 
 # LTCC compiler flags.
 LTCFLAGS=" -matomics -mbulk-memory"
@@ -282,7 +282,7 @@ finish_eval=""
 hardcode_into_libs=no
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/lib/clang/18 /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten "
+sys_lib_search_path_spec="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/lib/clang/18 /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten "
 
 # Detected run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib"
@@ -305,7 +305,7 @@ striplib="strip --strip-unneeded"
 
 
 # The linker used to build libraries.
-LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc"
+LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emcc"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -315,7 +315,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
-CC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc"
+CC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emcc"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes
@@ -11658,7 +11658,7 @@ build_old_libs=`case $build_libtool_libs in yes) echo no;; *) echo yes;; esac`
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
 # The linker used to build libraries.
-LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc"
+LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emcc"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -11668,7 +11668,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
-CC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/em++"
+CC="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/em++"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes
@@ -11683,7 +11683,7 @@ pic_flag=" -fPIC -DPIC"
 wl="-Wl,"
 
 # Compiler flag to prevent dynamic linking.
-link_static_flag=""
+link_static_flag="-static"
 
 # Does compiler simultaneously support -c and -o options?
 compiler_c_o="yes"
@@ -11796,7 +11796,7 @@ compiler_lib_search_dirs=""
 predep_objects=""
 postdep_objects=""
 predeps=""
-postdeps="-L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs -lc -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-noexcept -lsockets"
+postdeps="-L/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs -lc -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-noexcept -lsockets"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
@@ -11807,7 +11807,7 @@ compiler_lib_search_path=""
 # ### BEGIN LIBTOOL TAG CONFIG: FC
 
 # The linker used to build libraries.
-LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/opt/emsdk/upstream/emscripten/emcc"
+LD="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/opt/emsdk/upstream/emscripten/emcc"
 
 # How to create reloadable object files.
 reload_flag=" -r"

@@ -1,0 +1,12 @@
+prefix=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.5.0
+Libs: -L${libdir} -ltiff
+Libs.private: 
+Cflags: -I${includedir}
+Requires.private: 

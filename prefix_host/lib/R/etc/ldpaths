@@ -1,7 +1,7 @@
 : ${JAVA_HOME=}
 : ${R_JAVA_LD_LIBRARY_PATH=}
-if test -n "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib:/usr/lib"; then
-: ${R_LD_LIBRARY_PATH=${R_HOME}/lib:/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib:/usr/lib}
+if test -n "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib:/usr/lib"; then
+: ${R_LD_LIBRARY_PATH=${R_HOME}/lib:/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib:/usr/lib}
 else
 : ${R_LD_LIBRARY_PATH=${R_HOME}/lib}
 fi
@@ -13,9 +13,9 @@ fi
 ## However, on macOS >=10.11 (if SIP is enabled, the default), the
 ## environment value will not be passed to a script such as R.sh, so
 ## would not seen here.
-# if test -z "${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib}"; then
-#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib="${R_LD_LIBRARY_PATH}"
+# if test -z "${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib}"; then
+#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib="${R_LD_LIBRARY_PATH}"
 # else
-#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib="${R_LD_LIBRARY_PATH}:${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib}"
+#   /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib="${R_LD_LIBRARY_PATH}:${/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib}"
 # fi
-# export /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib
+# export /home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib

@@ -10,4 +10,4 @@ License: Part of R 4.4.1
 Suggests: codetools, methods, xml2, curl, commonmark, knitr, xfun,
         mathjaxr, V8
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-22 15:50:51 UTC; unix
+Built: R 4.4.1; x86_64-conda-linux-gnu; 2024-08-23 10:09:52 UTC; unix

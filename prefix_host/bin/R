@@ -1,8 +1,8 @@
 #!/bin/sh
 # Shell wrapper for R executable.
 
-R_HOME_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/R
-if test "${R_HOME_DIR}" = "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/R"; then
+R_HOME_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/R
+if test "${R_HOME_DIR}" = "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/R"; then
    case "emscripten" in
    linux*)
      run_arch=`uname -m`
@@ -16,10 +16,10 @@ if test "${R_HOME_DIR}" = "/home/ihuicatl/Repos/Packaging/emscripten-forge-recip
           libnn_fallback=lib64
         ;;
      esac
-     if [ -x "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/${libnn}/R/bin/exec/R" ]; then
-        R_HOME_DIR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/${libnn}/R"
-     elif [ -x "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/${libnn_fallback}/R/bin/exec/R" ]; then
-        R_HOME_DIR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/${libnn_fallback}/R"
+     if [ -x "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/${libnn}/R/bin/exec/R" ]; then
+        R_HOME_DIR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/${libnn}/R"
+     elif [ -x "/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/${libnn_fallback}/R/bin/exec/R" ]; then
+        R_HOME_DIR="/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/${libnn_fallback}/R"
      ## else -- leave alone (might be a sub-arch)
      fi
      ;;
@@ -32,11 +32,11 @@ if test -n "${R_HOME}" && \
 fi
 R_HOME="${R_HOME_DIR}"
 export R_HOME
-R_SHARE_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/R/share
+R_SHARE_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/R/share
 export R_SHARE_DIR
-R_INCLUDE_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/R/include
+R_INCLUDE_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/R/include
 export R_INCLUDE_DIR
-R_DOC_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-rlang_1724342075/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/R/doc
+R_DOC_DIR=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/R/doc
 export R_DOC_DIR
 
 # Since this script can be called recursively, we allow R_ARCH to
@@ -120,7 +120,7 @@ Report bugs at <https://bugs.R-project.org>."
 
 ## some systems have a more portable sed, e.g. /usr/xpg4/bin/sed on Solaris,
 ## so make sure that is used.
-SED=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724341568/build_env/bin/sed
+SED=/home/ihuicatl/Repos/Packaging/emscripten-forge-recipes/output/bld/rattler-build_r-base_1724338648/build_env/bin/sed
 export SED
 
 error () {
